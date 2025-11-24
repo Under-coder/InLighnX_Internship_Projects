@@ -1,0 +1,10 @@
+apple
+apples
+orange
+grapes
+grape
+lemon
+polka
+choco
+chocolate
+12345
