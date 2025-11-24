@@ -1,4 +1,5 @@
 **PDF Password Protector**
+-------------------------
 
 This program creates a password-protected version of any existing PDF file.
 It reads the original PDF, copies all its pages into a new file, encrypts it using the provided password, and saves the protected output.
