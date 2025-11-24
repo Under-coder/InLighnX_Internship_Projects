@@ -1,4 +1,5 @@
 **PDF Password Cracker**
+-----------------------------------------------
 
 This program attempts to decrypt a password-protected PDF using either a brute-force attack (automatic password generation) or a dictionary attack (wordlist).
 It tries each password, checks if it can open the PDF, and stops immediately when the correct one is found.
