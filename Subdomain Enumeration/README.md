@@ -1,4 +1,5 @@
 **Subdomain Finder**
+---------------------
 
 This program checks a list of possible subdomains for a given domain and identifies which ones exist.
 It loads subdomains from a text file (subdomains.txt), tests each one using HTTP requests, and saves all successfully discovered subdomains to discovered_subdomains.txt.
