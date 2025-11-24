@@ -21,7 +21,7 @@ This file serves as the foundational port scanner on which the enhanced version 
 **2. Enhanced Version — Port Scanner 2.0**
 
 The folder Port Scanner 2.0 contains a more structured and feature-rich version of the tool.
-The original scanning logic remains sane, but additional capabilities are implemented as separate modules, making the project scalable and maintainable.
+The original scanning logic remains same, but additional capabilities are implemented as separate modules, making the project scalable and maintainable.
 
 Modules inside the folder:
 - scanner2.py
