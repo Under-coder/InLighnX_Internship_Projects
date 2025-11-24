@@ -1,30 +1,22 @@
-**Network Scanner**
+ **Network Scanner**
+----------------------------------------------------
 
-A simple multi-threaded network scanning tool built using Python, Scapy, and ARP requests.
-This tool discovers devices connected to a local network by scanning all hosts in a given subnet (CIDR) and displaying their:
+This project is a Python-based network scanner that discovers active devices on a local network using ARP requests. It retrieves each device’s IP address, MAC address, hostname, and also performs OS detection using TTL-based fingerprinting (without relying on Nmap).
 
--->IP Address
+The scanner works by generating all hosts within a CIDR range, sending ARP requests to each IP using multithreading for fast scanning, resolving hostnames, and analyzing TTL values from responses to guess the operating system. An optional GUI interface (Tkinter) is included for users who prefer a visual workflow in addition to the original CLI output.
 
--->MAC Address
+------------------------------------------------------------------
 
--->Hostname (if available)
+**📌 Features**
 
-🔧 Features
+- ARP-based device discovery
+- IP, MAC, and Hostname resolution
+- OS Detection via TTL analysis
+- Multithreaded scanning for speed
+- Optional GUI for easier input and result display
 
--->Fast scanning using multi-threading
+----------------------------------------------------------------------------------------------
+*⚠️ Windows Users: Scapy requires Npcap to be installed to send/receive layer-2 packets.
+Download from: https://nmap.org/npcap/*
 
--->ARP-based host discovery
-
--->Reverse DNS lookup for hostnames
-
--->Supports any subnet in CIDR notation (e.g., 192.168.1.0/24)
-
--->Clean and readable output table
-
-
-
-
-
-*Note for Windows Users*
-
-To run ARP-based scanning with Scapy, you must install Npcap (with WinPcap API-compatible mode enabled).
+------------------------------------------------------------------------------------------------
